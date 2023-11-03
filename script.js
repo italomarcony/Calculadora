@@ -27,3 +27,9 @@ function calcularResultado() {
         displayValue = "";
     }
 }
+
+function backspace() {
+    displayValue = displayValue.slice(0, -1);
+    document.getElementById("display").value = displayValue;
+}
+
